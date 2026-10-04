@@ -1,8 +1,17 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="Campfire — codename. A place where the borders between people disappear. The app is only the wrapper. The real name arrives with the launch — soon." width="100%" />
+  <img src="assets/hero.svg" width="100%" alt="People need people. In the age of AI it has become plain that neither intellectual nor physical work belongs to people alone. What that makes obvious is the worth of our relationships with one another. We are rediscovering conversation — not only as a way to make something new, but as a value in itself: being together and growing together, with no deadline or task attached." />
 </p>
 
-<p align="center"><img src="assets/label-now.svg" alt="What we build" width="100%" /></p>
+<br />
+
+<p align="center">
+  I am co-founder and CEO of a company built around this idea.<br />
+  For now you will not find it in these repositories.
+</p>
+
+<p align="center">
+  What you will find are some of the tools we use to work well in the age of AI.
+</p>
 
 <p align="center">
   <a href="https://github.com/efim0v/grove"><img src="assets/card-grove.svg" alt="Grove — workspaces of git worktrees for parallel Claude Code sessions" width="32%" /></a>
@@ -10,15 +19,7 @@
   <a href="https://github.com/efim0v/uhabits"><img src="assets/card-loop.svg" alt="Loop Habit Tracker, ported to Flutter — on iOS, plus sleep and abstinence" width="32%" /></a>
 </p>
 
-<p align="center"><img src="assets/label-roots.svg" alt="Earlier work" width="100%" /></p>
-
-<p align="center">
-  <a href="https://github.com/efim0v/Haffman"><img src="assets/card-haffman.svg" alt="Haffman — a Huffman coder in C from 2019, kept exactly as written" width="32%" /></a>
-  <a href="https://github.com/efim0v/object_persistence"><img src="assets/card-persistence.svg" alt="object_persistence — Spring's container and an ORM, rebuilt from memory" width="32%" /></a>
-  <a href="https://github.com/efim0v/headless-obsidian-livesync"><img src="assets/card-livesync.svg" alt="Headless LiveSync — an Obsidian vault kept in sync on a server; an experiment" width="32%" /></a>
-</p>
-
-<p align="center"><img src="assets/label-talk.svg" alt="Talk to me" width="100%" /></p>
+<br />
 
 <p align="center">
   <a href="mailto:artem.efimov.k@gmail.com"><img src="assets/btn-email.svg" alt="artem.efimov.k@gmail.com" height="44" /></a>
