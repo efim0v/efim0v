@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 56" width="1200" height="56" role="img" aria-label="EARLIER WORK">
+<defs><linearGradient id="f" x1="0" x2="1"><stop offset="0" stop-color="#8b949e" stop-opacity="0"/><stop offset=".5" stop-color="#8b949e" stop-opacity=".6"/><stop offset="1" stop-color="#8b949e" stop-opacity="0"/></linearGradient></defs>
+<rect x="0" y="27.5" width="1200" height="1" fill="url(#f)"/>
+<rect x="450.0" y="8" width="300" height="40" rx="20" fill="#0d1117" stroke="#30363d"/>
+<text x="600.0" y="33.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" letter-spacing="4" fill="#c9d1d9">EARLIER WORK</text></svg>
