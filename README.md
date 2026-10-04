@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="People need people. In the age of AI it has become plain that neither intellectual nor physical work belongs to people alone. What that makes obvious is the worth of our relationships with one another. We are rediscovering conversation — not only as a way to make something new, but as a value in itself: being together and growing together, with no deadline or task attached." />
+  <img src="assets/night-sky.svg" width="100%" alt="People need people. In the age of AI it has become plain that neither intellectual nor physical work belongs to people alone. What that makes obvious is the worth of our relationships with one another. We are rediscovering conversation — not only as a way to make something new, but as a value in itself: being together and growing together, with no deadline or task attached." />
 </p>
 
 <br />
@@ -22,7 +22,7 @@
 <br />
 
 <p align="center">
-  <a href="mailto:artem.efimov.k@gmail.com"><img src="assets/btn-email.svg" alt="artem.efimov.k@gmail.com" height="44" /></a>
+  <a href="mailto:artem.efimov.k@gmail.com"><img src="assets/contact-email.svg" alt="artem.efimov.k@gmail.com" height="44" /></a>
   &nbsp;
-  <a href="https://t.me/efim0v"><img src="assets/btn-telegram.svg" alt="Telegram @efim0v" height="44" /></a>
+  <a href="https://t.me/efim0v"><img src="assets/contact-telegram.svg" alt="Telegram @efim0v" height="44" /></a>
 </p>
