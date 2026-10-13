@@ -1,28 +1,20 @@
 <p align="center">
-  <img src="assets/sky.svg" width="100%" alt="People need people. In the age of AI it has become plain that neither intellectual nor physical work belongs to people alone. What that makes obvious is the worth of our relationships with one another. We are rediscovering conversation — not only as a way to make something new, but as a value in itself: being together and growing together, with no deadline or task attached." />
+  <a href="https://mizzle.studio"><img src="assets/mizzle-header.svg" width="100%" alt="People need people. In the age of AI it has become clear: neither intellectual nor physical work belongs to people alone anymore. Any big undertaking used to bring people together. Now you can do it on your own — you and a machine. So now we reach out to each other not out of necessity but because we want to. And we are rediscovering conversation — not as a way to get something done, but as a value in itself. mizzle.studio" /></a>
+</p>
+
+<p align="center">
+  <a href="https://mizzle.studio"><img src="assets/mizzle-reach.svg" width="100%" align="top" alt="I am co-founder and CEO of Mizzle Studio, an independent product studio built around this idea. If the idea that people need people feels close to you, write to me." /></a><br />
+  <a href="mailto:artem.efimov.k@gmail.com"><img src="assets/mizzle-reach-email.svg" width="50%" align="top" alt="artem.efimov.k@gmail.com" /></a><a href="https://t.me/efim0v"><img src="assets/mizzle-reach-telegram.svg" width="50%" align="top" alt="Telegram @efim0v" /></a>
 </p>
 
 <br />
 
-<p align="center">
-  I am co-founder and CEO of a company built around this idea.<br />
-  For now you will not find it in these repositories.
-</p>
+## Open source
 
-<p align="center">
-  What you will find are some of the tools we use to work well in the age of AI.
-</p>
+Small tools I made and share with the developer community. Free for anyone&nbsp;to&nbsp;use.
 
-<p align="center">
-  <a href="https://github.com/efim0v/grove"><img src="assets/card-grove.svg" alt="Grove — workspaces of git worktrees for parallel Claude Code sessions" width="32%" /></a>
-  <a href="https://github.com/efim0v/brow"><img src="assets/card-brow.svg" alt="Brow — every Claude account's rate limits, living in the MacBook notch" width="32%" /></a>
-  <a href="https://github.com/efim0v/uhabits"><img src="assets/card-loop.svg" alt="Loop Habit Tracker, ported to Flutter — on iOS, plus sleep and abstinence" width="32%" /></a>
-</p>
-
-<br />
-
-<p align="center">
-  <a href="mailto:artem.efimov.k@gmail.com"><img src="assets/contact-email.svg" alt="artem.efimov.k@gmail.com" height="44" /></a>
-  &nbsp;
-  <a href="https://t.me/efim0v"><img src="assets/contact-telegram.svg" alt="Telegram @efim0v" height="44" /></a>
+<p>
+  <a href="https://github.com/efim0v/brow"><img src="assets/oss-brow.svg" width="416" alt="Brow — Every Claude account’s usage limits, in the MacBook notch. Swift · macOS. 54%, 72%. Personal 5h 12%, resets in 3 h 12 min; Weekly 34%, resets in 18 h 40 min. Team Weekly 93%, resets in 21 h 59 min. Work 5h 78%, resets in 59 min." /></a>&nbsp;
+  <a href="https://github.com/efim0v/grove"><img src="assets/oss-grove.svg" width="416" alt="Grove — Workspaces of git worktrees for parallel Claude Code sessions. Swift · macOS. main, feat/checkout, feat/search, web-client, api-server, server-config" /></a>&nbsp;
+  <a href="https://github.com/efim0v/uhabits"><img src="assets/oss-loop.svg" width="416" alt="Loop, ported — The Android habit tracker on iOS, plus sleep and abstinence. Stay productive on iOS. Flutter · iOS" /></a>
 </p>
