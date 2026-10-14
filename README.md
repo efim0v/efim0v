@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://mizzle.studio"><img src="assets/mizzle-reach.svg" width="100%" align="top" alt="I am co-founder and CEO of Mizzle Studio, an independent product studio built around this idea. If the idea that people need people feels close to you, write to me." /></a><br />
-  <a href="mailto:artem.efimov.k@gmail.com"><img src="assets/mizzle-reach-email.svg" width="50%" align="top" alt="artem.efimov.k@gmail.com" /></a><a href="https://t.me/efim0v"><img src="assets/mizzle-reach-telegram.svg" width="50%" align="top" alt="Telegram @efim0v" /></a>
+  <a href="mailto:a.efimov@mizzle.studio"><img src="assets/mizzle-reach-mail.svg" width="50%" align="top" alt="a.efimov@mizzle.studio" /></a><a href="https://t.me/efim0v"><img src="assets/mizzle-reach-telegram.svg" width="50%" align="top" alt="Telegram @efim0v" /></a>
 </p>
 
 <br />
