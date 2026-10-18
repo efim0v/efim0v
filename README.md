@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://mizzle.studio"><img src="assets/mizzle-header.svg" width="100%" alt="People need people. In the age of AI it has become clear: neither intellectual nor physical work belongs to people alone anymore. Any big undertaking used to bring people together. Now you can do it on your own — you and a machine. So now we reach out to each other not out of necessity but because we want to. And we are rediscovering conversation — not as a way to get something done, but as a value in itself. mizzle.studio" /></a>
+  <a href="https://mizzle.studio"><img src="assets/mizzle-header-v2.svg" width="100%" alt="People need people. In the age of AI it has become clear: neither intellectual nor physical work belongs to people alone anymore. Any big undertaking used to bring people together. Now you can do it on your own — you and a machine. So now we reach out to each other not out of necessity but because we want to. And we are rediscovering conversation — not as a way to get something done, but as a value in itself. mizzle.studio" /></a>
 </p>
 
 <p align="center">
