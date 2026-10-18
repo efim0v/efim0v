@@ -12,14 +12,16 @@ In a card the numbers are two groups with stable ids:
       <g id="forks" transform="translate(x y) scale(s)">...</g>   width of the star count
   </g>
 
-Numbers are written as GitHub writes them on its cards: up to 999 as they are, then 1k, 1.2k, 12.3k, 123k.
+Numbers are written as GitHub writes them on its cards: up to 999 as they are, then 1k, 1.3k, 12.3k, 123k
+(rounded: 1,250 is 1.3k).
 
     python3 counts.py --stars 58 --forks 2 --repo efim0v/brow
     python3 counts.py --stars 58 --forks 2 FILE.svg [FILE.svg ...]
 
 sets the counts in a repository's cards (the README links each card to its repository, so --repo finds its
 files there, a card and its -gap variant alike) or in the given files, rewrites a file only when a number in
-it changed, and prints the files it changed.
+it changed, and prints the files it changed. update_counts.py, next to it, reads the counts from GitHub and
+sets them on every card; the daily workflow runs it.
 """
 import argparse
 import json
@@ -41,15 +43,17 @@ def fmt(v):
 
 
 def count_text(n):
-    """GitHub's short form of a count: 57, 999, 1k, 1.2k, 12.3k, 123k."""
+    """A count as a pinned repository's card on GitHub writes it: up to 999 as it is, then in thousands, rounded
+    half up, to one decimal under 100k and to a whole number from there, without a trailing .0. As GitHub's
+    cards showed them on 2026-10-18: 1,022 is 1k, 2,250 is 2.3k, 3,293 is 3.3k, 23,962 is 24k, 108,712 is 109k."""
     n = int(n)
     if n < 1000:
         return str(n)
-    k = n / 1000.0
-    if k < 100:
-        s = ('%.1f' % (int(k * 10) / 10.0)).rstrip('0').rstrip('.')   # GitHub truncates: 1,299 is 1.2k
-        return s + 'k'
-    return '%dk' % int(k)
+    tenths = (n + 50) // 100
+    if tenths < 1000:
+        whole, tenth = divmod(tenths, 10)
+        return '%d%sk' % (whole, '.%d' % tenth if tenth else '')
+    return '%dk' % ((n + 500) // 1000)
 
 
 def advances(text):
