@@ -1,10 +1,6 @@
 <p align="center">
-  <a href="https://mizzle.studio"><img src="assets/mizzle-header.svg" width="100%" alt="People need people. In the age of AI it has become clear: neither intellectual nor physical work belongs to people alone anymore. Any big undertaking used to bring people together. Now you can do it on your own — you and a machine. So now we reach out to each other not out of necessity but because we want to. And we are rediscovering conversation — not as a way to get something done, but as a value in itself. mizzle.studio" /></a>
-</p>
-
-<p align="center">
-  <a href="https://mizzle.studio"><img src="assets/mizzle-reach.svg" width="100%" align="top" alt="I am co-founder and CEO of Mizzle Studio, an independent product studio built around this idea. If the idea that people need people feels close to you, write to me." /></a><br />
-  <a href="mailto:a.efimov@mizzle.studio"><img src="assets/mizzle-reach-mail.svg" width="50%" align="top" alt="a.efimov@mizzle.studio" /></a><a href="https://t.me/efim0v"><img src="assets/mizzle-reach-telegram.svg" width="50%" align="top" alt="Telegram @efim0v" /></a>
+  <a href="https://mizzle.studio"><img src="assets/mizzle-card.svg" width="100%" align="top" alt="People need people. In the age of AI it has become clear: neither intellectual nor physical work belongs to people alone anymore. Any big undertaking used to bring people together. Now you can do it on your own — you and a machine. So now we reach out to each other not out of necessity but because we want to. And we are rediscovering conversation — not as a way to get something done, but as a value in itself. I am co-founder and CEO of Mizzle Studio, an independent product studio built around this idea. If the idea that people need people feels close to you, write to me. mizzle.studio" /></a><br />
+  <a href="mailto:a.efimov@mizzle.studio"><img src="assets/mizzle-card-mail.svg" width="33.3333%" align="top" alt="a.efimov@mizzle.studio" /></a><a href="https://t.me/efim0v"><img src="assets/mizzle-card-telegram.svg" width="33.3333%" align="top" alt="Telegram @efim0v" /></a><a href="https://efimov.page"><img src="assets/mizzle-card-site.svg" width="33.3333%" align="top" alt="efimov.page" /></a>
 </p>
 
 <br />
