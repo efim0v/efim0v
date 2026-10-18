@@ -1,0 +1,35 @@
+# Keeps the stars and forks on the README's project cards current: once a day, and whenever it is run from the
+# Actions tab, it reads each card's repository on GitHub and commits the cards whose numbers changed.
+# How it works and how to run it by hand: scripts/cards/README.md.
+name: Card counts
+
+on:
+  schedule:
+    - cron: '17 3 * * *'   # every day at 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  counts:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Set the counts on the cards
+        run: python3 scripts/cards/update_counts.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit the cards that changed
+        run: |
+          git add -u -- assets
+          if git diff --cached --quiet; then
+            echo 'No number changed.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update the stars and forks on the cards'
+          git push
